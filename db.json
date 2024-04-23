@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "4186",
+      "name": "Rajkumar",
+      "email": "raj@gmail.com",
+      "password": "123323",
+      "type": "tech"
+    },
+    {
+      "name": "shrutika",
+      "email": "s@gmail.com",
+      "password": "123",
+      "id": "4187"
+    },
+    {
+      "id": "005a",
+      "name": "Raj",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "type": "admin"
+    },
+    {
+      "id": "005b",
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "1233233443",
+      "type": "user"
+    },
+    {
+      "id": "ca9a",
+      "name": "pradip",
+      "email": "pradip@gmail.com",
+      "password": "12345",
+      "type": "user"
+    },
+    {
+      "id": "d04e",
+      "name": "Aniket",
+      "email": "aniket@gmail.com",
+      "password": "123",
+      "type": "user"
+    },
+    {
+      "id": "874a",
+      "name": "omkar",
+      "email": "omkar@gmail",
+      "password": "123",
+      "type": "user"
+    },
+    {
+      "id": "9025",
+      "name": "Aniket",
+      "email": "aniket@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "4cef",
+      "name": "pradip sir",
+      "email": "pradip@gmail",
+      "password": "123",
+      "type": "tech"
+    },
+    {
+      "id": "3609",
+      "name": "tushar",
+      "email": "tushar@gmail.com",
+      "password": "1234",
+      "type": "tech"
+    },
+    {
+      "id": "6070",
+      "name": "ap",
+      "email": "ap123",
+      "password": "123",
+      "type": "user"
+    },
+    {
+      "id": "15e6",
+      "name": "",
+      "email": "",
+      "password": "",
+      "type": "user"
+    },
+    {
+      "id": "bdc7",
+      "name": "Aniket",
+      "email": "patilaniket3255@gmail.com",
+      "password": "1234",
+      "type": "tech"
+    },
+    {
+      "id": "3a35",
+      "name": "",
+      "email": "",
+      "password": "",
+      "type": "user"
+    },
+    {
+      "id": "7467",
+      "name": "hii",
+      "email": "aniket",
+      "password": "123",
+      "type": "user"
+    },
+    {
+      "id": "d67d",
+      "name": "",
+      "email": "aniket",
+      "password": "123",
+      "type": "user"
+    }
+  ],
+  "tickets": [
+    {
+      "problem": "head",
+      "supportid": "bdc7",
+      "usertid": "874a",
+      "status": "in_progress",
+      "id": "d0e0"
+    },
+    {
+      "problem": "navbar ",
+      "supportid": "4cef",
+      "usertid": "005b",
+      "status": "in_progress",
+      "id": "5178"
+    },
+    {
+      "id": "87a1",
+      "problem": "hear",
+      "status": "in_progress",
+      "supportid": 0,
+      "usertid": "005b"
+    },
+    {
+      "id": "a54a",
+      "problem": "navbar ",
+      "status": "in_progress",
+      "supportid": 0,
+      "usertid": "005b"
+    },
+    {
+      "id": "c625",
+      "problem": "navbar ",
+      "status": "in_progress",
+      "supportid": 0,
+      "usertid": "d04e"
+    },
+    {
+      "problem": "navbar ",
+      "supportid": "3609",
+      "usertid": "d04e",
+      "status": "in_progress",
+      "id": "ef57"
+    }
+  ]
+}

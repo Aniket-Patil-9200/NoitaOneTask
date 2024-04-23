@@ -1,0 +1,103 @@
+body{
+  background-color: #eee;
+}
+
+#side_nav{
+  background-color: #4daee2;
+  min-width: 180px;
+  max-width: 180px;
+  transition: all 0.3s;
+  height: 100%;
+}
+.content{
+  min-height: 100vh;
+  width: 100%;
+}
+hr.h-color{
+  background:#eee;
+}
+/* .sidebar.li.active{
+  background: #c50c0c;
+  border-radius: 8px;
+}
+
+.sidebar li.active a, .sidedbar li.active a:hover{
+  color: #da1a1a;
+} */
+.sidebar li a{
+  color: #fff;;
+}
+ul li a:hover{
+  /* background-color: rgb(131, 129, 129); */
+  color: #fff;
+  border-radius: 8px;
+}
+.active{
+  /* background-color: rgb(131, 129, 129); */
+  color: #fff;
+  border-radius: 8px;
+
+}
+ul {
+  list-style: none;
+  /* display: flex; */
+  justify-content: space-around;
+}
+ul li a{
+  text-decoration: none;
+  /* background-color: #a51414; */
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+@media(max-width:767px){
+  #side_nav{
+      margin-left:-250px;
+      position: fixed;
+      min-height: 100vh;
+      z-index: 1;
+  }
+  #side_nav.active{
+      margin-left: 0;
+  }
+}
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006b, #ad1fff);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
